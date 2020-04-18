@@ -8,7 +8,7 @@ This is a Pytorch based implementation of the Upside Down Reinforcement Learning
 > Traditional Reinforcement Learning (RL) algorithms either predict rewards with value functions or maximize them using policy search. We study an alternative: Upside-Down Reinforcement Learning (Upside-Down RL or UDRL), that solves RL problems primarily using supervised learning techniques. Here we present the first concrete implementation of UDRL and demonstrate its feasibility on certain episodic learning problems. Experimental results show that its performance can be surprisingly competitive with, and even exceed that of traditional baseline algorithms developed over decades of research.
 
 ## Experiments
-In this repo, I've tried to solve the `sparse lunar lander` task using the UDRL algorithm from the paper. You can jump right in using the `experiments.ipynb` jupyter notebook. Since `Sparse Lunar Lander` isn't a ready-made environment on OpenAI Gym, I manually mask out the rewards and convert `LunarLander-v2` into `Sparse Lunar Lander`.
+In this repo, I've tried to solve the *Sparse Lunar Lander* task using the UDRL algorithm from the paper. You can jump right in using the `experiments.ipynb` jupyter notebook. Since *Sparse Lunar Lander* isn't a ready-made environment on OpenAI Gym, I manually mask out the rewards and convert *LunarLander-v2* into a sparse one.
 
 ### Dependencies
 ```
