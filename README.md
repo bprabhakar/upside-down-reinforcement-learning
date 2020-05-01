@@ -23,4 +23,4 @@ comet_ml
 ![Sparse Lunar Lander](./plots/sparse_lunar_lander.png)
 
 ### Blog Post
-You can read more about this experiment at - *coming soon*.
+You can read more about this experiment at the accompanying blog post - https://towardsdatascience.com/is-upside-down-reinforcement-learning-imitation-learning-4a9d346f9f98
